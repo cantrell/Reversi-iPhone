@@ -5,11 +5,11 @@
 	
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
 
-	<filename>ReversiIphone</filename>
+	<filename>iReverse</filename>
 
-	<name>ReversiIphone</name>
+	<name>iReverse</name>
 
-	<version>1</version>
+	<version>0.9</version>
 
 	<description>A one or two player Reversi game.</description>
 
