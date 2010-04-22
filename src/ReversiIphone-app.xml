@@ -45,11 +45,8 @@
 		<!-- <maxSize></maxSize> -->
 	</initialWindow>
 
-	<!-- <icon>
-		<image16x16></image16x16>
-		<image32x32></image32x32>
-		<image48x48></image48x48>
-		<image128x128></image128x128>
-	</icon> -->
+	<icon>
+		<image57x57>assets/Icon.png</image57x57>
+	</icon>
 
 </application>
