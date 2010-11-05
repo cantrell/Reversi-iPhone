@@ -38,7 +38,7 @@ package
 	import flash.display.StageScaleMode;
 	import flash.events.Event;
 	
-	[SWF(frameRate="24")]
+	[SWF(frameRate="24", backgroundColor="#666666")]
 	public class ReversiIphone extends Sprite
 	{
 		private var reversi:Reversi;
@@ -47,7 +47,9 @@ package
 			super();
 			this.stage.scaleMode = StageScaleMode.NO_SCALE;
 			this.stage.align = StageAlign.TOP_LEFT;
-			this.reversi = new Reversi(163);
+			this.reversi = new Reversi(-1); // Old iPhone
+			//this.reversi = new Reversi(163); // Old iPhone
+			//this.reversi = new Reversi(326); // iPhone 4
 			this.addChild(this.reversi);
 		}
 	}
