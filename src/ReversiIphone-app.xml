@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
 
-	<id>com.christiancantrell.reversiiphone</id>
+	<id>ReversiIphone</id>
 	
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
 
@@ -30,14 +30,14 @@
 		<!-- <resizable></resizable> -->
 		
 		<!-- Portrait -->
-		<!--
 		<width>320</width>
 		<height>480</height>
-		-->
 
 		<!-- Landscape -->
+		<!--
 		<width>480</width>
 		<height>320</height>
+		-->
 		
 		<!-- <x></x> -->
 		<!-- <y></y> -->
