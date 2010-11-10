@@ -1,52 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <application xmlns="http://ns.adobe.com/air/application/2.0">
 
-	<id>ReversiIphone</id>
-	
+  <iPhone>
+    <InfoAdditions>
+      <![CDATA[
+        <key>UIDeviceFamily</key>
+        <array>
+          <string>1</string>
+          <string>2</string>
+        </array>
+
+        <key>UIPrerenderedIcon</key>
+        <true/>
+      ]]>
+    </InfoAdditions>
+  </iPhone>
+
+	<id>com.christiancantrell.ireverse</id>
 	<supportedProfiles>desktop mobileDevice</supportedProfiles>
-
 	<filename>iReverse</filename>
-
 	<name>iReverse</name>
-
-	<version>0.9</version>
-
+	<version>1.0</version>
 	<description>A one or two player Reversi game.</description>
 
 	<!-- <copyright></copyright> -->
 
 	<initialWindow>
 		<autoOrients>true</autoOrients>
+    <aspectRatio>portrait</aspectRatio>
 		<fullScreen>true</fullScreen>
-		<aspectRatio>portrait</aspectRatio>
-		<content>[This value will be overwritten by Flash Builder in the output app.xml]</content>
-		<title>Reversi</title>
+		<content>ReversiIphone.swf</content>
+		<title>iReverse</title>
 		<systemChrome>none</systemChrome>
 		<transparent>false</transparent>
 		<visible>true</visible>
-
-		<!-- <minimizable></minimizable> -->
-		<!-- <maximizable></maximizable> -->
-		<!-- <resizable></resizable> -->
-		
-		<!-- Portrait -->
-		<width>320</width>
-		<height>480</height>
-
-		<!-- Landscape -->
-		<!--
-		<width>480</width>
-		<height>320</height>
-		-->
-		
-		<!-- <x></x> -->
-		<!-- <y></y> -->
-		<!-- <minSize></minSize> -->
-		<!-- <maxSize></maxSize> -->
 	</initialWindow>
 
-	<icon>
-		<image57x57>assets/Icon.png</image57x57>
-	</icon>
+  <icon>
+    <image29x29>Icon-Small.png</image29x29>
+    <image48x48>Icon-Small-48.png</image48x48>
+    <image57x57>Icon.png</image57x57>
+    <image72x72>Icon-72.png</image72x72>
+    <image512x512>iTunesArtwork.png</image512x512>
+  </icon>
 
 </application>
